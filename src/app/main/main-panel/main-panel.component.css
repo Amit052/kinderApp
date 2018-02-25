@@ -1,0 +1,6 @@
+*{direction: rtl;} 
+.kids-panel,.group-panel{
+    height: 450px;
+    overflow-y: auto;
+}
+ 
