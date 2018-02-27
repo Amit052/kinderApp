@@ -11,6 +11,7 @@ import { ChildComponent } from './main/main-panel/child/child.component';
 import { ChildCardComponent } from './main/child-card/child-card.component';
 import { GroupComponent } from './main/main-panel/group/group.component';
 import { GroupMainComponent } from './main/group-main/group-main.component';
+import { RightMenuComponent } from './right-menu/right-menu.component';
  
 
 @NgModule({
@@ -24,7 +25,8 @@ import { GroupMainComponent } from './main/group-main/group-main.component';
     ChildComponent,
     ChildCardComponent,
     GroupComponent,
-    GroupMainComponent 
+    GroupMainComponent,
+    RightMenuComponent 
   ],
   imports: [
     BrowserModule,

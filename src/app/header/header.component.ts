@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 private isManager = false;
+private logo: string = "../assets/hamburger.png";
   constructor() { }
 
   ngOnInit() {

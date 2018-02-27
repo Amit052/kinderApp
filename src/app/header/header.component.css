@@ -1,5 +1,5 @@
 .header{
-    height: 5em;
+    height: 10vh;
     background: gray;
 }
 button,label{
@@ -10,4 +10,9 @@ button,label{
     text-decoration: none;
     color: white;
     cursor: pointer;
+}
+img{
+    position: relative;
+ height: 10vh !important;
+ 
 }
