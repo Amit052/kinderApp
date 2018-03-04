@@ -11,8 +11,4 @@ button,label{
     color: white;
     cursor: pointer;
 }
-img{
-    position: relative;
- height: 10vh !important;
  
-}

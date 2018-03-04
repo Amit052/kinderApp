@@ -1,0 +1,33 @@
+.hamburger_div{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 20%;
+    background-color:transparent;
+    height: 10vh;
+}
+.menu_div{
+    position: fixed;
+    right: 0;
+    top: 10vh;
+    width: 20%;
+    background-color: #dddddd;
+    height: 90vh;
+    text-align: center;
+    border-left: 2px solid black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+li a {
+    display: block;
+    font-size: 2em;
+    margin: 1em;
+    border-bottom: 1px solid darkgrey; 
+}
+img{
+    float: right;
+}
