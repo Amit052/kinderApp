@@ -1,0 +1,13 @@
+<div class="hamburger_div" (click)="openMenu()"> 
+  <img src="{{logo}}" class="img img-responsive" style="height:10vh;">
+</div>
+<div class="menu_div" *ngIf="menuOn">
+  <ul>
+    <li><a [routerLink]="['/main-view']">ראשי</a></li>
+    <li><a>ניהול</a></li>
+    <li><a>תמונות</a></li>
+    <li><a>דף הבית</a></li>
+    <li><a>התנתקות</a></li>
+
+  </ul>
+</div>
